@@ -1,4 +1,4 @@
-{% set old_etl_relation=ref('customer_orders') %} 
+{% set old_etl_relation=ref('customer_orders') %}  
 
 {% set dbt_relation=ref('fct_customer_orders') %}  {{ 
 
