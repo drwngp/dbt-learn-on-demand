@@ -30,7 +30,11 @@ with
                 partition by orders.customer_id
                 order by orders.order_id
                 range between unbounded preceding and current row
-            ) as customer_lifetime_value
+            ) as customer_lifetime_value 
+
+            , min(orders.order_placed_at) over (partition by orders.customer_id) as first_order_date
+            , max(orders.order_placed_at) over (partition by orders.customer_id) as most_recent_order_date
+            , count(orders.order_id) over (partition by orders.customer_id) as number_of_orders
 
         from orders
         left outer join payments on orders.order_id = payments.order_id

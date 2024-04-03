@@ -1,6 +1,4 @@
 with 
-    -- with statement
-    -- import CTEs 
     customers as (
 
         select * from {{ ref('stg_customers') }}
@@ -12,12 +10,6 @@ with
         select * from {{ ref('int_paid_orders') }}
 
     ) 
-
-    , customers_order_profile as (
-
-        select * from {{ ref('int_customer_order_profile') }}
-
-    )
 
 , final as (
 
@@ -33,21 +25,16 @@ with
         , paid_orders.transaction_seq
         , paid_orders.customer_sales_seq
         , case
-            when customers_order_profile.first_order_date = paid_orders.order_placed_at 
+            when paid_orders.first_order_date = paid_orders.order_placed_at 
             then 'new' 
             else 'return'
           end as nvsr 
         , paid_orders.customer_lifetime_value
-        , customers_order_profile.first_order_date as FDOS 
+        , paid_orders.first_order_date as FDOS 
     from paid_orders 
     left join customers 
         on paid_orders.customer_id = customers.customer_id 
-    left join int_customer_order_profile as customers_order_profile  
-        on paid_orders.customer_id = customers_order_profile.customer_id 
 
 )
 
 select * from final  
---where order_id in(1, 37) 
---where customer_id in(1, 66)
---order by customer_id --, order_id
