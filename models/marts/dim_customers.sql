@@ -20,7 +20,6 @@ final as (
         customers.customer_first_name,
         customers.customer_last_name,
         customer_orders.first_order_date,
-        -- add comment to test CI jobs
         customer_orders.most_recent_order_date,
         coalesce(customer_orders.number_of_orders, 0) as number_of_orders,
         customer_orders.lifetime_value, 
