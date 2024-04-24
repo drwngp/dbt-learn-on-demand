@@ -20,6 +20,7 @@ with
         , paid_orders.order_status
         , paid_orders.total_amount_paid
         , paid_orders.payment_finalized_date
+        -- add comment to test simple CI job
         , customers.customer_first_name
         , customers.customer_last_name  
         , paid_orders.transaction_seq
