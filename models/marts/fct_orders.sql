@@ -29,4 +29,4 @@ final as (
 )
 
 select * from final 
--- add comment to test modified model.
+-- just changing a comment to test.
