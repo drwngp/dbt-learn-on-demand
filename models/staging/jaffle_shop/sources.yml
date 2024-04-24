@@ -25,7 +25,7 @@ sources:
               - not_null
         freshness:
           warn_after:
-            count: 30
+            count: 100
             period: day
           error_after:
             count: 365
