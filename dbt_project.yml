@@ -48,3 +48,4 @@ models:
       +materialized: table
     staging:
       +materialized: view 
+      +schema: staging
