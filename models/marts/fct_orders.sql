@@ -21,7 +21,8 @@ final as (
         orders.order_id,
         orders.customer_id,
         orders.order_placed_at,
-        coalesce(order_payments.amount, 0) as amount
+        coalesce(order_payments.amount, 0) as amount, 
+        {{ current_timestamp() }} as loaded_at_dt 
 
     from orders
     left join order_payments using (order_id)
