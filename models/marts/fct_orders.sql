@@ -29,4 +29,3 @@ final as (
 )
 
 select * from final 
--- add comment for ci job test.
