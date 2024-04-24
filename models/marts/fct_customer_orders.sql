@@ -18,7 +18,7 @@ with
         , paid_orders.order_id 
         , paid_orders.order_placed_at
         , paid_orders.order_status
-        -- add comment to test slim CI jobs.
+        -- add comment for ci job test.
         , paid_orders.total_amount_paid
         , paid_orders.payment_finalized_date
         , customers.customer_first_name
