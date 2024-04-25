@@ -28,9 +28,10 @@ with
             orders.order_date as order_placed_at,
             orders.status as order_status ,
             orders._etl_loaded_at as src_updated_dt
-            , {{ current_timestamp_in_utc_backcompat() }} as created_dt
-            , {{ current_timestamp_in_utc_backcompat() }} as updated_dt            
-            , {{ current_timestamp_backcompat() }} as updated_dt_utc
+            , {{ current_timestamp_in_utc_backcompat() }} as created_dt   
+            , {{ job_run_job_id() }} as created_by
+            , {{ current_timestamp_in_utc_backcompat() }} as updated_dt 
+            , {{ job_run_job_id() }} as updated_by       
 
         from orders
 
