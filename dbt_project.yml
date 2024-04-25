@@ -48,3 +48,8 @@ models:
       +materialized: table
     staging:
       +materialized: view 
+      +schema: staging 
+
+seeds:
+  jaffle_shop:
+    +schema: staging 
