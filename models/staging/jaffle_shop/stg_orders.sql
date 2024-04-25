@@ -3,7 +3,7 @@
         materialized='incremental'
         , unique_key='order_id'
         , on_schema_change='append_new_columns'
-        , merge_exclude_columns =['created_dt', 'order_id'] 
+        , merge_exclude_columns =['created_dt', 'created_by', 'order_id'] 
         , incremental_strategy = 'merge'
         , incremental_predicates=["DBT_INTERNAL_DEST.src_updated_dt > dateadd(day, -7, current_date)"]
     )
