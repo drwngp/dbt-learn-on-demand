@@ -42,14 +42,30 @@ models:
   #    +materialized: table
 
   jaffle_shop:
-    intermediate:
-      +materialized: table
-    marts:
-      +materialized: table
-    staging:
-      +materialized: view 
-      +schema: staging 
+    jaffle_shop: 
+      +schema: jaffle_shop
+      intermediate:
+        +materialized: table
+      marts:
+        +materialized: table
+      staging:
+        +materialized: view 
+        +schema: jaffle_shop_staging 
+      legacy:
+        +materialized: view
+        +enabled: true
+    office_plus:
+      +schema: office_plus
+      staging:
+        +materialized: view
+        +schema: office_plus_staging
 
 seeds:
   jaffle_shop:
-    +schema: staging 
+    +enabled: false
+    office_plus:
+      +schema: office_plus_seed
+    jaffle_shop:
+      +schema: jaffle_shop_seed 
+
+
