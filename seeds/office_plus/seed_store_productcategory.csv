@@ -1,0 +1,79 @@
+SubCategoryCode,SubCategory,Category,MainCategory,Department
+AR-SC10000,Art & Craft Kits,Arts & Crafts,Hobbies & Arts,Creative Arts
+AR-SC10100,Art & Crafting Materials,Arts & Crafts,Hobbies & Arts,Creative Arts
+AR-SC10200,Art & Crafting Tool Accessories,Arts & Crafts,Hobbies & Arts,Creative Arts
+AR-SC10300,Art & Crafting Tools,Arts & Crafts,Hobbies & Arts,Creative Arts
+AR-SC10400,Craft Organization,Arts & Crafts,Hobbies & Arts,Creative Arts
+AR-SC10500,Crafting Patterns & Molds,Arts & Crafts,Hobbies & Arts,Creative Arts
+AR-SC10600,Collectible Coins & Currency,Collectibles,Hobbies & Arts,Creative Arts
+AR-SC10700,Collectible Weapons,Collectibles,Hobbies & Arts,Creative Arts
+AR-SC10800,Sports Collectibles,Collectibles,Hobbies & Arts,Creative Arts
+AR-SC10900,Models,Collectibles,Hobbies & Arts,Creative Arts
+AR-SC11000,Creative Toys,Toys,Hobbies & Arts,Creative Arts
+AR-SC12000,Toys,Toys,Hobbies & Arts,Creative Arts
+EL-SC50000,Headphone & Headset Accessories,Audio Accessories,Audio,Electronics
+EL-SC50100,Karaoke System Accessories,Audio Accessories,Audio,Electronics
+EL-SC50200,MP3 Player Accessories,Audio Accessories,Audio,Electronics
+EL-SC50300,Speaker Accessories,Audio Accessories,Audio,Electronics
+EL-SC50400,Audio Amplifiers,Audio Components,Audio,Electronics
+EL-SC50500,Audio Transmitters,Audio Components,Audio,Electronics
+EL-SC50600,Headphones & Headsets,Audio Components,Audio,Electronics
+EL-SC50700,Signal Processors,Audio Components,Audio,Electronics
+EL-SC50800,Computer Circuit Boards,Circuit Boards & Components,Circuit Boards & Components,Electronics
+EL-SC50900,Mobile Phone Accessories,Mobile Phones,Communications,Electronics
+EL-SC51000,Mobile Phones,Mobile Phones,Communications,Electronics
+EL-SC51100,Telephone Accessories,Telephony,Communications,Electronics
+EL-SC51200,Handheld Device Accessories,Computer Accessories,Electronics Accessories,Electronics
+EL-SC51300,E-Book Reader Parts,Computer Components,Electronics Accessories,Electronics
+EL-SC51400,I/O Cards & Adapters,Computer Components,Electronics Accessories,Electronics
+EL-SC51500,Input Device Accessories,Computer Components,Electronics Accessories,Electronics
+EL-SC51600,Input Devices,Computer Components,Electronics Accessories,Electronics
+EL-SC51700,Laptop Parts,Computer Components,Electronics Accessories,Electronics
+EL-SC51800,Storage Devices,Computer Components,Electronics Accessories,Electronics
+EL-SC51900,Tablet Computer Parts,Computer Components,Electronics Accessories,Electronics
+EL-SC52000,Flash Memory,Memory,Electronics Accessories,Electronics
+EL-SC52100,Batteries,Power,Electronics Accessories,Electronics
+EL-SC52200,Battery Accessories,Power,Electronics Accessories,Electronics
+EL-SC52300,Printer Consumables,"Printer, Copier & Fax Machine Accessories","Print, Copy, Scan & Fax",Electronics
+EL-SC52400,Computer Monitor Accessories,Video Accessories,Video,Electronics
+EL-SC52500,Projector Accessories,Video Accessories,Video,Electronics
+EL-SC52600,Television Parts & Accessories,Video Accessories,Video,Electronics
+MU-SC20000,Brass Instrument Accessories,Musical Instrument & Orchestra Accessories,Music,Music
+MU-SC20100,Music Stand Accessories,Musical Instrument & Orchestra Accessories,Music,Music
+MU-SC20200,Musical Instrument Amplifier Accessories,Musical Instrument & Orchestra Accessories,Music,Music
+MU-SC20300,Musical Keyboard Accessories,Musical Instrument & Orchestra Accessories,Music,Music
+MU-SC20400,Percussion Accessories,Musical Instrument & Orchestra Accessories,Music,Music
+MU-SC20500,String Instrument Accessories,Musical Instrument & Orchestra Accessories,Music,Music
+MU-SC20600,Woodwind Instrument Accessories,Musical Instrument & Orchestra Accessories,Music,Music
+MU-SC20700,Brass Instruments,Musical Instruments,Music,Music
+MU-SC20800,Electronic Musical Instruments,Musical Instruments,Music,Music
+MU-SC20900,Percussion,Musical Instruments,Music,Music
+MU-SC21000,String Instruments,Musical Instruments,Music,Music
+MU-SC21100,Woodwinds,Musical Instruments,Music,Music
+OS-SC70000,Office Chair Supplies,Office Chairs,Ergonomic,Office Supplies
+OS-SC70100,Office Chairs,Office Chairs,Ergonomic,Office Supplies
+OS-SC70200,Desks,Desks,Ergonomic,Office Supplies
+OS-SC70300,Standing Desks,Desks,Ergonomic,Office Supplies
+OS-SC70400,Binder Accessories,Binding Supplies,Filing & Organization,Office Supplies
+OS-SC70500,Marker & Highlighter Ink Refills,Writing & Drawing Instrument Accessories,Office Instruments,Office Supplies
+OS-SC70600,Markers & Highlighters,Writing & Drawing Instruments,Office Instruments,Office Supplies
+OS-SC70700,Pens & Pencils,Writing & Drawing Instruments,Office Instruments,Office Supplies
+OS-SC70800,Bulletin Board Accessories,Display Boards,Presentation Supplies,Office Supplies
+PA-SC30000,Gift Wrapping,Gift Giving,Party & Celebration,Party & Celebration
+PA-SC30100,Drinking Games,Party Supplies,Party & Celebration,Party & Celebration
+PA-SC30200,Party Favors,Party Supplies,Party & Celebration,Party & Celebration
+PA-SC30300,Party Decorations,Party Supplies,Party & Celebration,Party & Celebration
+PH-SC40000,Developing & Processing Equipment,Darkroom,Photography,Photography
+PH-SC40100,Enlarging Equipment,Darkroom,Photography,Photography
+PH-SC40200,Studio Lighting Controls,Lighting & Studio,Photography,Photography
+SP-SC60000,Basketball Hoop Parts & Accessories,Basketball,Athletics,Sporting Goods
+SP-SC60100,Free Weight Accessories,Weight Lifting,Exercise & Fitness,Sporting Goods
+SP-SC60200,Camp Furniture,Camping & Hiking,Outdoor Recreation,Sporting Goods
+SP-SC60300,Camping Tools,Camping & Hiking,Outdoor Recreation,Sporting Goods
+SP-SC60400,Portable Toilets & Showers,Camping & Hiking,Outdoor Recreation,Sporting Goods
+SP-SC60500,Tent Accessories,Camping & Hiking,Outdoor Recreation,Sporting Goods
+SP-SC60600,Bicycle Accessories,Cycling,Outdoor Recreation,Sporting Goods
+SP-SC60700,Cycling Apparel & Accessories,Cycling,Outdoor Recreation,Sporting Goods
+SP-SC60800,Badminton,Outdoor Games,Outdoor Recreation,Sporting Goods
+SP-SC60900,Skateboard Parts,Skateboarding,Outdoor Recreation,Sporting Goods
+SP-SC61000,Skateboarding Protective Gear,Skateboarding,Outdoor Recreation,Sporting Goods

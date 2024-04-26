@@ -1,0 +1,40 @@
+version: 2
+
+sources:
+  - name: src_office_plus
+    description: office plus headquarter masterdata
+    database: raw
+    schema: office_plus
+    tables:
+      - name: customers
+        identifier: store_customer
+        description: list of store customers.
+        columns:
+          - name: custnum
+            description: primary key for customers.
+            tests:
+              - unique
+              - not_null
+
+      - name: products
+        identifier: product
+        description: list of products
+        columns:
+          - name: productcode
+            description: Primary key of products.
+            tests:
+              - unique
+              - not_null
+          - name: subcategorycode
+            tests:
+            - relationships:
+                to: ref('product_category')
+                field: subcategorycode
+
+      - name: product_category
+        description: product categorization
+        columns:
+          - name: subcategorycode
+            description: Primary key of sub product category.
+
+
