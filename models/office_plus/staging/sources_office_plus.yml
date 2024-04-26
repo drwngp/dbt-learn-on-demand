@@ -28,7 +28,7 @@ sources:
           - name: subcategorycode
             tests:
             - relationships:
-                to: ref('product_category')
+                to: source('src_office_plus', 'product_category')
                 field: subcategorycode
 
       - name: product_category
