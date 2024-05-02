@@ -44,18 +44,35 @@ models:
   jaffle_shop:
     jaffle_shop: 
       +schema: jaffle_shop
+
+      # all models should have unique and not_null
+      +required_tests: {"unique.*|not_null": 2}
+
       intermediate:
         +materialized: table
+
       marts:
         +materialized: table
+
+        # marts should have unique and not_null (inherited from above)
+        #  plus an additional test for relationship
+        #+required_tests: {"relationship.*": 1}
+        +required_tests: {"relationship.*|unique.*|not_null": 3}
+
       staging:
         +materialized: view 
         +schema: jaffle_shop_staging 
+
       legacy:
         +materialized: view
         +enabled: true
+
     office_plus:
-      +schema: office_plus
+      +schema: office_plus 
+
+      # all models should have unique and not_null
+      +required_tests: {"unique.*|not_null": 2}  
+
       staging:
         +materialized: view
         +schema: office_plus_staging
