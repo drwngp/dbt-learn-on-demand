@@ -8,5 +8,15 @@ models:
         description: Primary key field.
         tests:
           - not_null
+          - unique 
+
+  - name: stg_products
+    description: products list
+    columns:
+      - name: product_code
+        description: Primary key field.
+        tests:
+          - not_null
           - unique
+          
           

@@ -1,3 +1,9 @@
+{{
+    config(
+        required_tests=None
+    )
+}}
+
 with
     paid_orders as (
         select
