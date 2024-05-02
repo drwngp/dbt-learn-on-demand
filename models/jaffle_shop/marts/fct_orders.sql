@@ -29,4 +29,4 @@ final as (
 )
 
 select * from final 
--- adding comment to test CI slim run.
+-- adding comment to test CI slim run; more addon comment.
