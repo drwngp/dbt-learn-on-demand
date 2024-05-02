@@ -56,7 +56,6 @@ models:
 
         # marts should have unique and not_null (inherited from above)
         #  plus an additional test for relationship
-        #+required_tests: {"relationship.*": 1}
         +required_tests: {"relationship.*|unique.*|not_null": 3}
 
       staging:

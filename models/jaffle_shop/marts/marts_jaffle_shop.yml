@@ -7,8 +7,8 @@ models:
       - name: customer_id
         description: Unique field
         tests:
-          - not_null
           - unique
+          - not_null
           - relationships:
               to: ref('stg_customers')
               field: customer_id
@@ -18,8 +18,8 @@ models:
     columns:
       - name: order_id
         tests:
-          - not_null
           - unique
+          - not_null
           - relationships:
               to: ref('dim_customers')
               field: customer_id 
@@ -29,8 +29,8 @@ models:
     columns:
       - name: order_id
         tests:
-          - not_null
           - unique
+          - not_null
           - relationships:
               to: ref('dim_customers')
               field: customer_id
