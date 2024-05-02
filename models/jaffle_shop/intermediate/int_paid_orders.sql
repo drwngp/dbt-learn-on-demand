@@ -1,3 +1,9 @@
+{{
+    config(
+        required_tests=None
+    )
+}}
+
 with
     orders as (select * from {{ ref("stg_orders") }}),
 

@@ -1,3 +1,9 @@
+{{
+    config(
+        required_tests=None
+    )
+}}
+
 {%- set payment_methods = ['bank_transfer','credit_card','coupon','gift_card'] -%}
  
 with payments as (

@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: Customer profile dimension table
+    columns:
+      - name: customer_id
+        description: Unique field
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: customer_id
+
+  - name: fct_customer_orders
+    description: Orders fact table  
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref('dim_customers')
+              field: customer_id 
+
+  - name: fct_orders
+    description: Orders fact table
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref('dim_customers')
+              field: customer_id
+

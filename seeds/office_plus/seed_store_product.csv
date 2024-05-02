@@ -1,0 +1,360 @@
+ProductCode,ProductName,SubCategoryCode,Cost,RetailPrice
+AR1002,Candle Making Kits,AR-SC10000,14,17.36
+AR1004,Drawing & Painting Kits,AR-SC10000,37.94,47.8
+AR1006,Fabric Repair Kits,AR-SC10000,49.44,61.3
+AR1008,Incense Making Kits,AR-SC10000,6.29,8.36
+AR1010,Jewelry Making Kits,AR-SC10000,33.59,47.36
+AR1012,Mosaic Kits,AR-SC10000,59.95,75.54
+AR1014,Needlecraft Kits,AR-SC10000,21.49,28.37
+AR1016,Scrapbooking & Stamping Kits,AR-SC10000,40.6,49.13
+AR1018,Toy Craft Kits,AR-SC10000,40.75,54.6
+AR1020,Art & Craft Paper,AR-SC10100,50.47,70.15
+AR1022,Craft Fasteners & Closures,AR-SC10100,60.33,76.62
+AR1024,"Craft Paint, Ink & Glaze",AR-SC10100,9.19,12.04
+AR1026,Craft Shapes & Bases,AR-SC10100,44.44,63.1
+AR1028,Crafting Adhesives & Magnets,AR-SC10100,21.38,27.37
+AR1030,Crafting Fibers,AR-SC10100,19.01,26.24
+AR1032,Crafting Wire,AR-SC10100,76.12,105.04
+AR1034,Embellishments & Trims,AR-SC10100,70.91,94.31
+AR1036,Embossing Powder,AR-SC10100,6.43,8.61
+AR1038,Filling & Padding Material,AR-SC10100,35.8,44.39
+AR1040,Leather & Vinyl,AR-SC10100,5.27,6.74
+AR1042,Pottery & Sculpting Materials,AR-SC10100,36.72,51.04
+AR1044,Raw Candle Wax,AR-SC10100,68.92,95.8
+AR1046,Textiles,AR-SC10100,10.89,14.7
+AR1048,Wick Tabs,AR-SC10100,73.33,101.2
+AR1050,Wicks,AR-SC10100,38.18,51.93
+AR1052,Craft Knife Blades,AR-SC10200,17.5,24.85
+AR1054,Craft Machine Cases & Covers,AR-SC10200,14.2,19.74
+AR1056,Sewing Machine Extension Tables,AR-SC10200,51.73,67.77
+AR1058,Sewing Machine Feet,AR-SC10200,62.39,88.59
+AR1060,Sewing Machine Replacement Parts,AR-SC10200,4.36,5.49
+AR1062,Spinning Wheel Accessories,AR-SC10200,76.73,100.51
+AR1064,Stamp Blocks,AR-SC10200,53.69,63.89
+AR1066,Blocking Mats,AR-SC10300,31.24,37.8
+AR1068,Blocking Wires,AR-SC10300,81.18,106.34
+AR1070,Color Mixing Tools,AR-SC10300,3.34,4.14
+AR1072,Craft Cutting & Embossing Tools,AR-SC10300,56.59,79.79
+AR1074,Craft Decoration Makers,AR-SC10300,32.68,41.5
+AR1076,Craft Measuring & Marking Tools,AR-SC10300,6.67,8.07
+AR1078,Cutting Mats,AR-SC10300,77.59,104.75
+AR1080,Dress Forms,AR-SC10300,58.86,75.34
+AR1082,Felting Pads & Mats,AR-SC10300,72.27,94.67
+AR1084,"Frames, Hoops & Stretchers",AR-SC10300,63.34,88.68
+AR1086,Glue Guns,AR-SC10300,75.82,95.53
+AR1088,Light Boxes,AR-SC10300,81.75,105.46
+AR1090,Needles & Hooks,AR-SC10300,17.78,21.69
+AR1092,Safety Pins,AR-SC10300,76.98,92.37
+AR1094,Straight Pins,AR-SC10300,80.74,104.96
+AR1096,Textile Craft Machines,AR-SC10300,19.02,23.59
+AR1098,Thimbles & Sewing Palms,AR-SC10300,51.18,65
+AR1100,Thread & Yarn Tools,AR-SC10300,33.22,39.86
+AR1102,"Needle, Pin & Hook Organizers",AR-SC10400,2.24,3.02
+AR1104,Sewing Baskets & Kits,AR-SC10400,50.64,63.3
+AR1106,Thread & Yarn Organizers,AR-SC10400,46.96,58.7
+AR1108,Beading Patterns,AR-SC10500,70.67,85.51
+AR1110,Craft Molds,AR-SC10500,68.01,84.33
+AR1112,Felting Molds,AR-SC10500,62.38,88.58
+AR1114,Needlecraft Patterns,AR-SC10500,7.44,9.15
+AR1116,Sewing Patterns,AR-SC10500,24.49,32.08
+AR1118,Collectible Banknotes,AR-SC10600,75.52,102.71
+AR1120,Collectible Coins,AR-SC10600,62.72,87.18
+AR1122,Collectible Guns,AR-SC10700,79.03,98
+AR1124,Collectible Knives,AR-SC10700,76.23,96.81
+AR1126,Collectible Swords,AR-SC10700,46.95,61.51
+AR1128,Sword Stands & Displays,AR-SC10700,54.76,67.36
+AR1130,Autographed Sports Paraphernalia,AR-SC10800,10.33,13.95
+AR1132,Sports Fan Accessories,AR-SC10800,69.5,91.04
+AR1134,Magnetic Tiles (innovative),AR-SC11000,69.27,99.20
+AR1136,Kinetic Sand (innovative),AR-SC11000,24.27,39.89
+AR1138,Model Airplane Kit,AR-SC10900,63.46,99.45
+AR1140,Crayons,AR-SC10100,4.29,8.69
+AR1142,Model Tank Kit,AR-SC10900,51.53,80.39
+AR1144,Model Train,AR-SC10900,61.64,95.9
+AR1146,Building Blocks Set 5+,AR-SC12000,41.42,80.43
+AR1148,Building Blocks Set 3+,AR-SC12000,30.21,50.65
+AR1150,Train Set,AR-SC12000,23.11,49.9
+EL5002,Headphone Cushions & Tips,EL-SC50000,49.22,63.49
+EL5004,Karaoke Chips,EL-SC50100,38.93,46.72
+EL5006,MP3 Player & Mobile Phone Accessory Sets,EL-SC50200,39.84,48.6
+EL5008,MP3 Player Cases,EL-SC50200,58.31,71.72
+EL5010,"Speaker Bags, Covers & Cases",EL-SC50300,8.77,10.52
+EL5012,Speaker Components & Kits,EL-SC50300,76.59,105.7
+EL5014,Speaker Stand Bags,EL-SC50300,1.37,1.74
+EL5016,Speaker Stands & Mounts,EL-SC50300,60.91,72.48
+EL5018,Tactile Transducers,EL-SC50300,77.46,99.92
+EL5020,Headphone Amplifiers,EL-SC50400,38.04,47.93
+EL5022,Power Amplifiers,EL-SC50400,68.9,86.12
+EL5024,Bluetooth Transmitters,EL-SC50500,31.66,44.33
+EL5026,FM Transmitters,EL-SC50500,68.21,87.31
+EL5028,Headphones,EL-SC50600,54.21,66.14
+EL5030,Headsets,EL-SC50600,25.64,34.1
+EL5032,Crossovers,EL-SC50700,23.45,28.14
+EL5034,Effects Processors,EL-SC50700,64.05,87.11
+EL5036,Equalizers,EL-SC50700,76.95,96.19
+EL5038,Loudspeaker Management Systems,EL-SC50700,44.87,61.02
+EL5040,Microphone Preamps,EL-SC50700,74.79,103.96
+EL5042,Noise Gates & Compressors,EL-SC50700,61.34,80.97
+EL5044,Phono Preamps,EL-SC50700,67.07,91.89
+EL5046,Computer Inverter Boards,EL-SC50800,59.05,70.27
+EL5048,Hard Drive Circuit Boards,EL-SC50800,78.27,108.01
+EL5050,Motherboards,EL-SC50800,60.11,79.94
+EL5052,Mobile Phone Camera Accessories,EL-SC50900,48.63,62.73
+EL5054,Mobile Phone Cases,EL-SC50900,35.06,45.23
+EL5056,Mobile Phone Charms & Straps,EL-SC50900,78.68,102.29
+EL5058,Mobile Phone Pre-Paid Cards & SIM Cards,EL-SC50900,70.5,87.42
+EL5060,Mobile Phone Pocket Tripod (Innovative),EL-SC50900,30.63,46.32
+EL5062,Mobile Phone Stands,EL-SC50900,71.31,99.12
+EL5064,SIM Card Ejection Tools,EL-SC50900,29.93,40.71
+EL5066,Contract Mobile Phones,EL-SC51000,6.75,8.78
+EL5068,Pre-paid Mobile Phones,EL-SC51000,65.07,89.79
+EL5070,Unlocked Mobile Phones,EL-SC51000,68.96,82.75
+EL5072,Phone Cards,EL-SC51100,11.1,13.87
+EL5074,E-Book Reader Accessories,EL-SC51200,37.09,44.88
+EL5076,PDA Accessories,EL-SC51200,46.26,55.51
+EL5078,E-Book Reader Screens & Screen Digitizers,EL-SC51300,80.56,104.73
+EL5080,Audio Cards & Adapters,EL-SC51400,69.08,96.02
+EL5082,Computer Interface Cards & Adapters,EL-SC51400,84.77,106.81
+EL5084,Riser Cards,EL-SC51400,4.21,5.1
+EL5086,TV Tuner Cards & Adapters,EL-SC51400,49.75,60.2
+EL5088,Video Cards & Adapters,EL-SC51400,12.24,16.4
+EL5090,Barcode Scanner Stands,EL-SC51500,50.27,61.83
+EL5092,Game Controller Accessories,EL-SC51500,1.45,1.72
+EL5094,Keyboard Keys & Caps,EL-SC51500,7.05,8.67
+EL5096,Mice & Trackball Accessories,EL-SC51500,76.96,100.05
+EL5098,Barcode Scanners,EL-SC51600,52.76,64.89
+EL5100,Digital Note Taking Pens,EL-SC51600,21.42,28.92
+EL5102,Electronic Card Readers,EL-SC51600,83.72,102.14
+EL5104,Fingerprint Readers,EL-SC51600,52.56,65.18
+EL5106,Game Controllers,EL-SC51600,14.97,18.86
+EL5108,Gesture Control Input Devices,EL-SC51600,63.64,77.01
+EL5110,Graphics Tablets,EL-SC51600,75.98,99.54
+EL5112,KVM Switches,EL-SC51600,17.38,22.07
+EL5114,Keyboards,EL-SC51600,29.43,36.49
+EL5116,Memory Card Readers,EL-SC51600,4.75,6.75
+EL5118,Mice & Trackballs,EL-SC51600,80.49,103.03
+EL5120,Numeric Keypads,EL-SC51600,74.84,89.81
+EL5122,Touchpads,EL-SC51600,27.3,38.22
+EL5124,Laptop Hinges,EL-SC51700,6.55,9.04
+EL5126,Laptop Housings & Trim,EL-SC51700,13.68,18.19
+EL5128,Laptop Replacement Cables,EL-SC51700,81.56,100.32
+EL5130,Laptop Replacement Keyboards,EL-SC51700,11.68,14.25
+EL5132,Laptop Replacement Screens,EL-SC51700,74.06,104.42
+EL5134,Laptop Replacement Speakers,EL-SC51700,60.61,75.76
+EL5136,Laptop Screen Digitizers,EL-SC51700,19.44,24.69
+EL5138,Disk Duplicators,EL-SC51800,62.34,87.27
+EL5140,Floppy Drives,EL-SC51800,51.17,63.96
+EL5142,Hard Drive Accessories,EL-SC51800,11.72,14.41
+EL5144,Hard Drive Arrays,EL-SC51800,69.51,93.15
+EL5146,Hard Drives,EL-SC51800,20.43,26.97
+EL5148,Network Storage Systems,EL-SC51800,51.08,60.78
+EL5150,Optical Drives,EL-SC51800,11.06,15.71
+EL5152,Tape Drives,EL-SC51800,66.76,92.13
+EL5154,USB Flash Drives,EL-SC51800,63.43,86.9
+EL5156,Tablet Computer Housings & Trim,EL-SC51900,30.91,43.59
+EL5158,Tablet Computer Replacement Speakers,EL-SC51900,86.33,108.77
+EL5160,Tablet Computer Screens & Screen Digitizers,EL-SC51900,33.29,46.61
+EL5162,Flash Memory Cards,EL-SC52000,35.3,46.24
+EL5164,Camera Batteries,EL-SC52100,12.76,16.84
+EL5166,Cordless Phone Batteries,EL-SC52100,10.64,14.26
+EL5168,E-Book Reader Batteries,EL-SC52100,7.52,10.3
+EL5170,General Purpose Batteries,EL-SC52100,22,29.7
+EL5172,Laptop Batteries,EL-SC52100,78.55,103.68
+EL5174,MP3 Player Batteries,EL-SC52100,44.09,57.76
+EL5176,Mobile Phone Batteries,EL-SC52100,39.66,47.59
+EL5178,PDA Batteries,EL-SC52100,76.34,100.01
+EL5180,Tablet Computer Batteries,EL-SC52100,2.42,3.12
+EL5182,UPS Batteries,EL-SC52100,32.76,45.86
+EL5184,Video Camera Batteries,EL-SC52100,20.33,27.24
+EL5186,Video Game Console & Controller Batteries,EL-SC52100,4.37,5.9
+EL5188,Battery Charge Controllers,EL-SC52200,58.65,79.18
+EL5190,Battery Holders,EL-SC52200,65.99,89.74
+EL5192,Camera Battery Chargers,EL-SC52200,37.56,49.96
+EL5194,General Purpose Battery Chargers,EL-SC52200,54.16,73.12
+EL5196,General Purpose Battery Testers,EL-SC52200,18.55,25.23
+EL5198,Printer Drums & Drum Kits,EL-SC52300,46.17,60.02
+EL5200,Printer Filters,EL-SC52300,75.47,101.89
+EL5202,Printer Maintenance Kits,EL-SC52300,70.11,91.84
+EL5204,Printer Ribbons,EL-SC52300,26.46,36.52
+EL5206,Printheads,EL-SC52300,14.5,18.85
+EL5208,Toner & Inkjet Cartridge Refills,EL-SC52300,3.05,4.02
+EL5210,Toner & Inkjet Cartridges,EL-SC52300,34.83,45.97
+EL5212,Color Calibrators,EL-SC52400,69.83,97.76
+EL5214,Projection & Tripod Skirts,EL-SC52500,15.2,21.58
+EL5216,Projection Screen Stands,EL-SC52500,82.62,109.89
+EL5218,Projection Screens,EL-SC52500,52.92,71.97
+EL5220,Projector Mounts,EL-SC52500,19.77,24.12
+EL5222,Projector Replacement Lamps,EL-SC52500,53.36,73.64
+EL5224,TV & Monitor Mounts,EL-SC52600,72.53,92.11
+EL5226,TV Converter Boxes,EL-SC52600,56.58,75.25
+EL5228,TV Replacement Lamps,EL-SC52600,59.3,80.65
+EL5230,TV Replacement Speakers,EL-SC52600,57.51,78.79
+MU2002,Brass Instrument Care & Cleaning,MU-SC20000,66.23,80.8
+MU2004,Brass Instrument Cases & Gigbags,MU-SC20000,67.13,93.98
+MU2006,Brass Instrument Mouthpieces,MU-SC20000,52.99,72.59
+MU2008,Brass Instrument Mutes,MU-SC20000,13.71,18.23
+MU2010,Brass Instrument Replacement Parts,MU-SC20000,51.86,67.94
+MU2012,Brass Instrument Straps & Stands,MU-SC20000,57.38,71.72
+MU2014,Music Stand Bags,MU-SC20100,59.69,72.22
+MU2016,Music Stand Lights,MU-SC20100,48.2,67
+MU2018,Sheet Music Clips,MU-SC20100,28.15,38.56
+MU2020,Musical Amplifier Cabinets,MU-SC20200,10.88,13.27
+MU2022,Musical Amplifier Covers,MU-SC20200,56.07,75.14
+MU2024,Musical Amplifier Footswitches,MU-SC20200,31.93,45.02
+MU2026,Musical Amplifier Knobs,MU-SC20200,51.22,70.68
+MU2028,Musical Amplifier Stands,MU-SC20200,72.75,86.57
+MU2030,Musical Amplifier Tubes,MU-SC20200,29.12,38.44
+MU2032,Musical Keyboard Bags & Cases,MU-SC20300,9.55,12.42
+MU2034,Musical Keyboard Stands,MU-SC20300,28.34,34.86
+MU2036,Sustain Pedals,MU-SC20300,48.63,59.82
+MU2038,Cymbal & Drum Cases,MU-SC20400,71.8,93.34
+MU2040,Cymbal & Drum Mutes,MU-SC20400,23.96,29.47
+MU2042,Drum Heads,MU-SC20400,30.45,36.84
+MU2044,Drum Keys,MU-SC20400,49.48,60.86
+MU2046,Drum Kit Hardware,MU-SC20400,72.14,95.22
+MU2048,Drum Stick & Brush Accessories,MU-SC20400,30.1,38.23
+MU2050,Drum Sticks & Brushes,MU-SC20400,59.27,78.23
+MU2052,Electronic Drum Modules,MU-SC20400,31.54,38.16
+MU2054,Hand Percussion Accessories,MU-SC20400,0.89,1.18
+MU2056,Percussion Mallets,MU-SC20400,29.31,40.45
+MU2058,Percussion Stands,MU-SC20400,33.6,43.01
+MU2060,Guitar Accessories,MU-SC20500,44.78,60.9
+MU2062,Orchestral String Instrument Accessories,MU-SC20500,26.47,33.88
+MU2064,String Instrument Care & Cleaning,MU-SC20500,29.68,38.58
+MU2066,Bassoon Accessories,MU-SC20600,16.17,20.37
+MU2068,Clarinet Accessories,MU-SC20600,48.3,68.1
+MU2070,Flute Accessories,MU-SC20600,30.79,43.42
+MU2072,Harmonica Accessories,MU-SC20600,59.53,74.41
+MU2074,Oboe & English Horn Accessories,MU-SC20600,14.42,19.32
+MU2076,Recorder Accessories,MU-SC20600,30.28,41.49
+MU2078,Saxophone Accessories,MU-SC20600,46.35,65.81
+MU2080,Woodwind Cork Grease,MU-SC20600,72.15,101.73
+MU2082,Woodwind Polishing Cloths,MU-SC20600,16.61,20.6
+MU2084,Woodwind Reed Cases,MU-SC20600,38.02,45.62
+MU2086,Woodwind Reed Knives,MU-SC20600,41.76,58.47
+MU2088,Alto & Baritone Horns,MU-SC20700,63.51,88.91
+MU2090,Euphoniums,MU-SC20700,15.09,21.27
+MU2092,French Horns,MU-SC20700,13.22,17.18
+MU2094,Trombones,MU-SC20700,20.17,24.4
+MU2096,Trumpets & Cornets,MU-SC20700,63.39,77.34
+MU2098,Tubas,MU-SC20700,21.6,28.51
+MU2100,Audio Samplers,MU-SC20800,34.81,42.12
+MU2102,MIDI Controllers,MU-SC20800,29.41,39.41
+MU2104,Musical Keyboards,MU-SC20800,15.26,20.3
+MU2106,Sound Synthesizers,MU-SC20800,1.4,1.7
+MU2108,Bass Drums,MU-SC20900,33.82,44.3
+MU2110,Cymbals,MU-SC20900,16.37,19.64
+MU2112,Drum Kits,MU-SC20900,53.12,70.12
+MU2114,Electronic Drums,MU-SC20900,15.72,19.81
+MU2116,Glockenspiels & Xylophones,MU-SC20900,70.77,98.37
+MU2118,Gongs,MU-SC20900,6.8,8.84
+MU2120,Hand Percussion,MU-SC20900,29.72,41.61
+MU2122,Hi-Hats,MU-SC20900,55.44,68.75
+MU2124,Practice Pads,MU-SC20900,35.33,46.28
+MU2126,Snare Drums,MU-SC20900,20.98,29.16
+MU2128,Tom-Toms,MU-SC20900,13.47,17.65
+MU2130,Cellos,MU-SC21000,8.66,11.52
+MU2132,Guitars,MU-SC21000,42.79,56.05
+MU2134,Harps,MU-SC21000,68.89,89.56
+MU2136,Upright Basses,MU-SC21000,73.22,95.19
+MU2138,Violas,MU-SC21000,8.75,11.73
+MU2140,Violins,MU-SC21000,26.99,37.51
+MU2142,Bassoons,MU-SC21100,40.76,51.36
+MU2144,Clarinets,MU-SC21100,21.81,28.14
+MU2146,Flutes,MU-SC21100,75.96,100.27
+MU2148,Flutophones,MU-SC21100,55.6,73.39
+MU2150,Harmonicas,MU-SC21100,86.55,112.51
+MU2152,Jew's Harps,MU-SC21100,19.79,25.92
+MU2154,Melodicas,MU-SC21100,8.89,10.84
+MU2156,Musical Pipes,MU-SC21100,65.44,79.84
+MU2158,Oboes & English Horns,MU-SC21100,66.24,80.81
+MU2160,Ocarinas,MU-SC21100,17.12,20.54
+MU2162,Recorders,MU-SC21100,69.99,97.98
+MU2164,Saxophones,MU-SC21100,50.48,63.6
+MU2166,Tin Whistles,MU-SC21100,20.52,24.62
+MU2168,Train Whistles,MU-SC21100,57.91,79.33
+OS7002,Binder Rings,OS-SC70200,20.89,30.89
+OS7004,Index Dividers,OS-SC70200,8.89,12.89
+OS7006,Sheet Protectors,OS-SC70200,10.89,15.89
+OS7008,Highlighter Refills,OS-SC70300,11.36,13.86
+OS7010,Marker Refills,OS-SC70300,7.49,9.89
+OS7012,Highlighters,OS-SC70400,5.76,7.08
+OS7014,Markers,OS-SC70400,10.89,15.89
+OS7016,Pen & Pencil Sets,OS-SC70500,12.95,16.19
+OS7018,Pencils,OS-SC70500,21.35,29.89
+OS7020,Special Pens,OS-SC70500,41.75,53.86
+OS7022,Bulletin Board Trim,OS-SC70600,40.84,49.42
+OS7024,Bulletin Board Trim Sets,OS-SC70600,42.08,54.71
+OS7026,ErgoPlus Office Chair (Innovative),OS-SC70100,998,1445
+OS7028,ErgoPlus Stool (Innovative),OS-SC70100,450,689
+OS7030,Memory Foam Seat Cushion (Innovative),OS-SC70000,38.53,58.89
+OS7032,Adjustable Standing Desk (Innovative),OS-SC70300,1340,1790.00
+OS7034,Standing Desk,OS-SC70300,698,890.00
+OS7036,Standard Desk,OS-SC70200,642.8,810.00
+PA3002,Gift Bags,PA-SC30000,68.57,87.77
+PA3004,Gift Boxes & Tins,PA-SC30000,21.78,28.31
+PA3006,Gift Tags & Labels,PA-SC30000,34.82,47.71
+PA3008,Tissue Paper,PA-SC30000,63.08,81.37
+PA3010,Wrapping Paper,PA-SC30000,60.14,72.77
+PA3012,Beer Pong,PA-SC30100,25.32,32.91
+PA3014,Wedding Favors,PA-SC30200,3.58,4.66
+PA3016,Balloons Bulk,PA-SC30300,10.39,15.25
+PA3018,Streamers,PA-SC30300,2.49,4.99
+PH4002,Copystands,PH-SC40000,62.91,76.75
+PH4004,Darkroom Sinks,PH-SC40000,38.42,52.63
+PH4006,Developing Tanks & Reels,PH-SC40000,64.88,86.29
+PH4008,"Print Trays, Washers & Dryers",PH-SC40000,74.94,94.42
+PH4010,Retouching Equipment & Supplies,PH-SC40000,5.48,7.73
+PH4012,Darkroom Easels,PH-SC40100,21.22,27.8
+PH4014,Darkroom Timers,PH-SC40100,38.67,51.43
+PH4016,Focusing Aids,PH-SC40100,24.54,32.15
+PH4018,Photographic Analyzers,PH-SC40100,27.6,35.33
+PH4020,Photographic Enlargers,PH-SC40100,70.27,87.84
+PH4022,Flash Diffusers,PH-SC40200,58.83,72.36
+PH4024,Flash Reflectors,PH-SC40200,6.39,9.01
+PH4026,Lighting Filters & Gobos,PH-SC40200,66.67,88.67
+PH4028,Softboxes,PH-SC40200,5.22,6.94
+SP6002,Basketball Backboards,SP-SC60000,82.8,103.5
+SP6004,Basketball Hoop Padding,SP-SC60000,39.51,51.76
+SP6006,Basketball Hoop Posts,SP-SC60000,61.05,86.69
+SP6008,Basketball Nets,SP-SC60000,74.64,97.78
+SP6010,Basketball Rims,SP-SC60000,66.8,85.51
+SP6012,Free Weight Storage Racks,SP-SC60100,6.56,9.19
+SP6014,Weight Bar Collars,SP-SC60100,72.67,87.2
+SP6016,Weight Bars,SP-SC60100,77.87,93.44
+SP6018,Air Mattress & Sleeping Pad Accessories,SP-SC60200,27.18,38.33
+SP6020,Air Mattresses,SP-SC60200,61.71,82.08
+SP6022,Cots,SP-SC60200,73.66,93.55
+SP6024,Hunting & Survival Knives,SP-SC60300,83.61,109.53
+SP6026,Multifunction Tools & Knives,SP-SC60300,77.83,103.52
+SP6028,Portable Showers & Privacy Enclosures,SP-SC60400,68.31,86.75
+SP6030,Portable Toilets & Urination Devices,SP-SC60400,66.39,94.28
+SP6032,Inner Tents,SP-SC60500,41.91,58.25
+SP6034,Tent Footprints,SP-SC60500,12.83,17.45
+SP6036,Tent Poles & Stakes,SP-SC60500,76.2,92.97
+SP6038,Tent Vestibules,SP-SC60500,7.22,9.46
+SP6040,Bicycle Bags & Panniers,SP-SC60600,28.1,36.25
+SP6042,Bicycle Baskets,SP-SC60600,2.35,3.03
+SP6044,Bicycle Bells & Horns,SP-SC60600,39.8,55.32
+SP6046,Bicycle Cages,SP-SC60600,37.69,51.63
+SP6048,Bicycle Child Seat Accessories,SP-SC60600,1.71,2.19
+SP6050,Bicycle Child Seats,SP-SC60600,80.82,101.03
+SP6052,Bicycle Locks,SP-SC60600,42.85,56.13
+SP6054,Bicycle Mirrors,SP-SC60600,48.47,64.46
+SP6056,Bicycle Pumps,SP-SC60600,13.76,19.13
+SP6058,Bicycle Training Wheels,SP-SC60600,49.25,68.46
+SP6060,Bicycle Gloves,SP-SC60700,31.13,43.27
+SP6062,Bicycle Helmets,SP-SC60700,1.83,2.19
+SP6064,Bicycle Protective Pads,SP-SC60700,35.85,44.09
+SP6066,Bicycle Shoe Covers,SP-SC60700,18.99,24.88
+SP6068,Badminton Nets,SP-SC60800,41.79,52.24
+SP6070,Badminton Racquets & Sets,SP-SC60800,63.2,75.84
+SP6072,Shuttlecocks,SP-SC60800,32.88,42.42
+SP6074,Skateboard Decks,SP-SC60900,52.85,65.53
+SP6076,Skateboard Small Parts,SP-SC60900,73.02,95.66
+SP6078,Skateboard Trucks,SP-SC60900,29.35,37.57
+SP6080,Skateboard Wheels,SP-SC60900,42.62,60.09
+SP6082,Skate Helmets,SP-SC61000,64.03,83.88
+SP6084,Skateboarding Gloves,SP-SC61000,5.85,7.2
+SP6086,Skateboarding Pads,SP-SC61000,38,49.02
+SP6088,Outdoor Shower Box (Innovative),SP-SC60400,74.43,98.99
