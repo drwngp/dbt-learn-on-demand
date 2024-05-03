@@ -25,7 +25,16 @@ models:
               field: customer_id 
 
   - name: fct_orders
-    description: Orders fact table
+    description: Orders fact table 
+    tests:
+      - unique:
+          column_name: "order_id || '-' || customer_id"
+
+  # this version of the test moved the column section to take advantage of the 'column_name' reserved word.    
+  #    - average_dollars_spent_less_than_ten:
+  #        column_name: amount
+  #        group_by_column: customer_id
+
     columns:
       - name: order_id
         tests:
@@ -33,5 +42,14 @@ models:
           - not_null
           - relationships:
               to: ref('dim_customers')
-              field: customer_id
+              field: customer_id 
+      - name: customer_id
+        tests:
+          - unique
+      - name: amount
+        description: Payment per customer per order.
+        tests:
+          - average_dollars_spent_less_than_ten:
+              group_by_column: customer_id
+        
 
