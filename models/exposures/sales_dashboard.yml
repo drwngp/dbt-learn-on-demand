@@ -1,0 +1,29 @@
+version: 2
+
+## exposures:
+##   - name: name
+##     type: type
+##     url: url
+##     description: description
+##     owner:
+##       email: owner
+##     depends_on:
+##       - ref('model_name')
+
+
+exposures:
+
+  - name: sales_ytd_dashboard
+    label: Jaffles by the Week
+    type: dashboard
+    maturity: high
+    url: https://app.powerbi.com/groups/c3cef311-50ab-492f-8d46-9ae2d33f900b/dashboards/779cfc9e-9402-43ad-8057-4778d9c4b2b8?experience=power-bi
+    description: >
+      Sales YTD as Compared to Budget
+
+    depends_on:
+      - ref('fct_orders')
+
+    owner:
+      name: Darwin Pactoranan
+      email: astray7red@gmail.com
