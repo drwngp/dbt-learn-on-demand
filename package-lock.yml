@@ -3,6 +3,10 @@ packages:
   version: 0.11.0
 - package: tnightengale/dbt_meta_testing
   version: 0.3.6
+- package: calogica/dbt_expectations
+  version: 0.10.3
 - package: dbt-labs/dbt_utils
   version: 1.1.1
-sha1_hash: 0dc22797f5dfef700e2243051ee0c5ccc370c2f0
+- package: calogica/dbt_date
+  version: 0.10.1
+sha1_hash: 83423eda784efd35f85c8fffc746f9823ae2a8ac

@@ -25,7 +25,20 @@ models:
               field: customer_id 
 
   - name: fct_orders
-    description: Orders fact table
+    description: Orders fact table 
+    tests:
+      - unique:
+          column_name: "order_id || '-' || customer_id"
+      - dbt_utils.expression_is_true:
+          expression: "amount > 5"
+          config:
+            severity: warn
+
+  # this version of the test moved the column section to take advantage of the 'column_name' reserved word.    
+  #    - average_dollars_spent_less_than_ten:
+  #        column_name: amount
+  #        group_by_column: customer_id
+
     columns:
       - name: order_id
         tests:
@@ -33,5 +46,34 @@ models:
           - not_null
           - relationships:
               to: ref('dim_customers')
+              field: customer_id 
+              
+      - name: customer_id
+        tests:
+          - relationships:
+              to: ref('stg_customers')
               field: customer_id
+          - unique:
+              config: 
+                limit: 10
+                store_failures: true
+
+                #severity: warn
+                #error_if: ">30"
+                #warn_if: ">20"
+                #where: "order_placed_at > '2018-03-01'"
+
+      - name: amount
+        description: Payment per customer per order.
+        tests:
+          - average_dollars_spent_less_than_ten:
+              group_by_column: customer_id
+              config: 
+                severity: error
+                error_if: ">15"
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 5
+              row_condition: "order_id is not null"
+              strictly: True
+        
 

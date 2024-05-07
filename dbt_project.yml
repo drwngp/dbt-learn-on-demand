@@ -84,4 +84,9 @@ seeds:
     jaffle_shop:
       +schema: jaffle_shop_seed 
 
-
+tests:
+  jaffle_shop:
+    +severity: warn
+    +store_failures: true 
+    +schema: test_failures 
+    
