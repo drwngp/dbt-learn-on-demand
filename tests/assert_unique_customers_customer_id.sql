@@ -1,3 +1,10 @@
+{{
+    config(
+        error_if='>30'
+        , warn_if='>10'
+    )
+}}
+
 select
     customer_id, 
     count(*) as rec_count
