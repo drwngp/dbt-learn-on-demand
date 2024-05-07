@@ -1,0 +1,33 @@
+version: 2
+
+## exposures:
+##   - name: name
+##     type: type
+##     url: url
+##     description: description
+##     owner:
+##       email: owner
+##     depends_on:
+##       - ref('model_name')
+
+
+exposures:
+
+  - name: report_sales_analysis
+    label: Jaffles by the Week
+    type: application
+    maturity: high
+    url: https://app.powerbi.com/groups/c3cef311-50ab-492f-8d46-9ae2d33f900b/reports/372f1b45-818d-440d-b813-84471771ded4/ReportSection36bc85105a5fbd5d17c3?experience=power-bi
+    description: >
+      Did someone say "exponential growth"?
+
+    depends_on:
+      - ref('fct_orders')
+      - ref('dim_customers')
+      - ref('fct_customer_orders')
+##      - source('gsheets', 'goals')
+##      - metric('count_orders')
+
+    owner:
+      name: Darwin Pactoranan
+      email: darwin.pactoranan.wrk@gmail.com
