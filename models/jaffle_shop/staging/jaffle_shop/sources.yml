@@ -4,7 +4,7 @@ sources:
   - name: src_jaffle_shop 
     description: A clone of a Postgres application database.
     database: raw 
-    schema: jaffle_shop
+    schema: jaffle_shop_fundamentals
     tables:
       - name: customers
         description: Raw customers data.
