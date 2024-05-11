@@ -2,7 +2,7 @@
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-name: 'jaffle_shop'
+name: 'proj_jaffle_shop'
 version: '1.0.0'
 config-version: 2
 
@@ -41,7 +41,7 @@ models:
   #  example:
   #    +materialized: table
 
-  jaffle_shop:
+  proj_jaffle_shop:
     jaffle_shop: 
       +schema: jaffle_shop
 
@@ -74,10 +74,16 @@ models:
 
       staging:
         +materialized: view
-        +schema: office_plus_staging
+        +schema: office_plus_staging 
+
+    jaffle_shop_sl:
+      staging:
+        +schema: staging_jaffle_shop_sl
+        
+
 
 seeds:
-  jaffle_shop:
+  proj_jaffle_shop:
     +enabled: false
     office_plus:
       +schema: office_plus_seed
@@ -85,7 +91,7 @@ seeds:
       +schema: jaffle_shop_seed 
 
 tests:
-  jaffle_shop:
+  proj_jaffle_shop:
     +severity: warn
     +store_failures: true 
     +schema: test_failures 
