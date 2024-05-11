@@ -43,7 +43,6 @@ models:
 
   proj_jaffle_shop:
     jaffle_shop: 
-      +enabled: false
       +schema: jaffle_shop
 
       # all models should have unique and not_null
