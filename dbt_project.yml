@@ -75,10 +75,6 @@ models:
       staging:
         +materialized: view
         +schema: office_plus_staging 
-
-    jaffle_shop_sl:
-      staging:
-        +schema: staging_jaffle_shop_sl
         
 
 
