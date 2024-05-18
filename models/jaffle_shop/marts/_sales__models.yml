@@ -15,9 +15,11 @@ models:
 
   - name: fct_customer_orders
     description: Orders fact table  
-    tags: refactoring_course
+    config:
+      tags: refactoring_course_model
     columns:
       - name: order_id
+        tags: ['refactoring_course_column']
         tests:
           - unique
           - not_null
