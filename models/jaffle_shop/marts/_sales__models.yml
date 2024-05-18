@@ -15,6 +15,7 @@ models:
 
   - name: fct_customer_orders
     description: Orders fact table  
+    tags: refactoring_course
     columns:
       - name: order_id
         tests:
