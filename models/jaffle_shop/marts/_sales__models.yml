@@ -3,15 +3,33 @@ version: 2
 models:
   - name: dim_customers
     description: Customer profile dimension table
+    config:
+      contract:
+        enforced: true
     columns:
       - name: customer_id
         description: Unique field
+        data_type: int
         tests:
           - unique
           - not_null
           - relationships:
               to: ref('stg_customers')
               field: customer_id
+      - name: customer_first_name
+        data_type: nvarchar(100)
+      - name: customer_last_name
+        data_type: varchar(100)
+      - name: first_order_date
+        data_type: date
+      - name: most_recent_order_date
+        data_type: date
+      - name: number_of_orders
+        data_type: int
+      - name: lifetime_value
+        data_type: numeric(38, 6)
+      - name: loaded_at_dt 
+        data_type: timestamp_tz
 
   - name: fct_customer_orders
     description: Orders fact table  
