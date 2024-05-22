@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: dim_customers
-    latest_version: 2
+    latest_version: 2 
     description: Customer profile dimension table
     deprecation_date: 2024-05-21 00:00:00.00+00:00
     config:
