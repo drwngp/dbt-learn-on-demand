@@ -27,6 +27,8 @@ exposures:
       - ref('fct_customer_orders')
 ##      - source('gsheets', 'goals')
 ##      - metric('count_orders')
+#      - ref('stg_store_customers')
+#      - ref('stg_products')
 
     owner:
       name: Darwin Pactoranan
