@@ -24,6 +24,7 @@ final as (
         coalesce(order_payments.amount, 0) as amount, 
         {{ current_timestamp() }} as loaded_at_dt 
         , 'test value of dbt clone on Slim CI' as test_column
+        , 'another test column' as test_column_2
 
     from orders
     left join order_payments using (order_id)
