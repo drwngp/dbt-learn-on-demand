@@ -68,6 +68,8 @@ models:
 
     office_plus:
       +schema: office_plus 
+      +group: office_plus_users
+      +access: private
 
       # all models should have unique and not_null
       +required_tests: {"unique.*|not_null": 2}  
@@ -75,10 +77,6 @@ models:
       staging:
         +materialized: view
         +schema: office_plus_staging 
-
-    jaffle_shop_sl:
-      staging:
-        +schema: staging_jaffle_shop_sl
         
 
 

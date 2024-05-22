@@ -1,6 +1,7 @@
 {{
     config(
-        required_tests=None
+        required_tests=None,
+        materialized='view'
     )
 }}
 

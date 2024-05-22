@@ -24,6 +24,7 @@ final as (
         coalesce(customer_orders.number_of_orders, 0) as number_of_orders,
         customer_orders.lifetime_value, 
         {{ current_timestamp() }} as loaded_at_dt 
+        , 'test value' as version_test_column 
     from customers
     left join customer_orders using (customer_id)
 )
