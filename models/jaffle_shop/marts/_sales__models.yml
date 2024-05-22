@@ -2,7 +2,9 @@ version: 2
 
 models:
   - name: dim_customers
+    latest_version: 1
     description: Customer profile dimension table
+    deprecation_date: 2024-05-21 00:00:00.00+00:00
     config:
       contract:
         enforced: true
@@ -30,6 +32,26 @@ models:
         data_type: numeric(38, 6)
       - name: loaded_at_dt 
         data_type: timestamp_tz
+      - name: version_test_column
+        data_type: varchar(50)
+
+    # Declare the versions, and highlight the diffs
+    versions:
+      - v: 1
+        config:
+          alias: dim_customers
+        # Matches what's above -- nothing more needed
+#        columns:
+#          - exclude: version_test_column
+      - v: 2
+        # Removed a column -- this is the breaking change!
+        columns:
+        # This means: use the 'columns' list from above, but exclude country_name
+          - include: all
+            exclude: [version_test_column]
+          
+
+
 
   - name: fct_customer_orders
     description: Orders fact table  
@@ -41,12 +63,17 @@ models:
         tests:
           - unique
           - not_null
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
           - relationships:
               to: ref('dim_customers')
               field: customer_id 
 
   - name: fct_orders
     description: Orders fact table 
+    deprecation_date: 2024-05-21 00:00:00.00+00:00
     tests:
       - unique:
           column_name: "order_id || '-' || customer_id"
@@ -65,9 +92,6 @@ models:
         tests:
           - unique
           - not_null
-          - relationships:
-              to: ref('dim_customers')
-              field: customer_id 
               
       - name: customer_id
         tests:

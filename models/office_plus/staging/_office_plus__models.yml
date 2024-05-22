@@ -1,9 +1,18 @@
 version: 2
 
+groups:
+  - name: office_plus_users
+    owner:
+      name: Office Plus Users
+      owner: darwin.pactoranan.wrk@gmail.com 
+
+
 models:
   - name: stg_store_customers
     description: staging table for raw customers.
-    columns:
+    #group: office_plus_users
+    #access: private
+    columns: 
       - name: custnum 
         description: Primary key field.
         tests:

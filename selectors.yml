@@ -1,0 +1,21 @@
+
+selectors:
+  - name: all_office_plus_staging
+    description: to run all office plus staging models.
+    definition: 
+      union:
+#        - intersection:
+#        - method: fqn
+#          value: dim_customers
+#          indirect_selection: empty 
+#        - method: fqn
+#          value: stg_customers
+#          indirect_selection: buildable
+          - method: source
+            value: src_jaffle_shop.orders
+          - method: fqn 
+            value: dim_customers 
+            indirect_selection: cautious
+          - method: path
+            value: models/office_plus
+            indirect_selection: empty
