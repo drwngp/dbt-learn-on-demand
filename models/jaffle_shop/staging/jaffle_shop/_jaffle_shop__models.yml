@@ -3,9 +3,17 @@ version: 2
 models:
     - name: stg_customers
       description: Staged customer data from our jaffle shop app.
+#      meta: 
+#        owner: "@darwin"
+#        contains_pii: true 
+      config:
+        meta: {"meta1": "one","owner": "@darwin", "email": 'darwin.pactoranan@outlook.com'} 
+        tags: [hourly]
       columns: 
         - name: customer_id
           description: The primary key for customers.
+          meta:
+            contains_pii: true
           tests:
             - unique
             - not_null

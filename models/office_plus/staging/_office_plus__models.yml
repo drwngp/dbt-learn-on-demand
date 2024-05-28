@@ -10,8 +10,8 @@ groups:
 models:
   - name: stg_store_customers
     description: staging table for raw customers.
-    #group: office_plus_users
-    #access: private
+    group: office_plus_users
+    access: private
     columns: 
       - name: custnum 
         description: Primary key field.
