@@ -70,6 +70,7 @@ models:
         +enabled: true
 
     office_plus:
+      +enabled: false
       +schema: office_plus 
       +group: office_plus_users
       +access: private
@@ -81,13 +82,16 @@ models:
       staging:
         +materialized: view
         +schema: office_plus_staging 
+
+snapshots:
+  proj_jaffle_shop:
+    office_plus:
+      +enabled: false
         
-
-
 seeds:
   proj_jaffle_shop:
-    +enabled: true
     office_plus:
+      +enabled: false
       +schema: office_plus_seed
     jaffle_shop:
       +schema: jaffle_shop_seed 

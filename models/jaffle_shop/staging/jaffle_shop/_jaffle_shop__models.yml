@@ -7,6 +7,7 @@ models:
 #        owner: "@darwin"
 #        contains_pii: true 
       config:
+        alias: stg_customers_alias
         meta: {"meta1": "one","owner": "@darwin", "email": 'darwin.pactoranan@outlook.com'} 
         tags: [hourly]
       columns: 
@@ -20,6 +21,8 @@ models:
 
     - name: stg_orders
       description: Staged order data from our jaffle shop app.
+      config: 
+        alias: stg_orders_alias
       columns: 
         - name: order_id
           description: Primary key for orders.
