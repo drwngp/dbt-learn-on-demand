@@ -15,7 +15,7 @@ models:
           description: The primary key for customers.
           meta:
             contains_pii: true
-          tests:
+          data_tests:
             - unique
             - not_null
 
@@ -26,7 +26,7 @@ models:
       columns: 
         - name: order_id
           description: Primary key for orders.
-          tests:
+          data_tests:
             - relationships:
                 to: ref('stg_customers')
                 field: customer_id

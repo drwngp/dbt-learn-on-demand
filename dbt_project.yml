@@ -96,7 +96,7 @@ seeds:
     jaffle_shop:
       +schema: jaffle_shop_seed 
 
-tests:
+data_tests:
   proj_jaffle_shop:
     +severity: warn
     +store_failures: true 
