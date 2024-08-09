@@ -3,11 +3,14 @@ version: 2
 models:
   - name: dim_customers
     latest_version: 2 
-    description: Customer profile dimension table
-    #deprecation_date: 2024-05-21 00:00:00.00+00:00
+    description: Customer profile dimension table.
+    #deprecation_date: 2024-05-21 00:00:00.00+00:00 
+#    meta:
+#      contains_pii: true
     config:
       contract:
-        enforced: true
+        enforced: true 
+      meta: {"versioned": true}
     columns:
       - name: customer_id
         description: Unique field
@@ -20,6 +23,8 @@ models:
               field: customer_id
       - name: customer_first_name
         data_type: nvarchar(100)
+        meta:
+          contains_pii: true 
       - name: customer_last_name
         data_type: varchar(100)
       - name: first_order_date
@@ -54,9 +59,9 @@ models:
 
 
   - name: fct_customer_orders
-    description: Orders fact table  
+    description: Customer orders fact table  
     config:
-      tags: refactoring_course_model
+      tags: ['fact_model', 'fact', 'refactoring_course_model']
     columns:
       - name: order_id
         tags: ['refactoring_course_column']
@@ -74,6 +79,8 @@ models:
   - name: fct_orders
     description: Orders fact table 
     #deprecation_date: 2024-05-21 00:00:00.00+00:00
+    config:
+      tags: ['fact_model', 'fact']
     tests:
       - unique:
           column_name: "order_id || '-' || customer_id"
@@ -89,11 +96,17 @@ models:
 
     columns:
       - name: order_id
+        tags: [primary_key]
         tests:
           - unique
           - not_null
+
+      - name: order_placed_at
+        description: Date when order was made.
               
       - name: customer_id
+        description: foreign key from customer table.
+        tags: ["foreign_key"]
         tests:
           - relationships:
               to: ref('stg_customers')

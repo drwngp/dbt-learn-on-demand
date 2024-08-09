@@ -53,6 +53,9 @@ models:
 
       marts:
         +materialized: table
+        +persist_docs:
+          relation: true
+          columns: true
 
         # marts should have unique and not_null (inherited from above)
         #  plus an additional test for relationship
@@ -67,9 +70,11 @@ models:
         +enabled: true
 
     office_plus:
+      +enabled: false
       +schema: office_plus 
       +group: office_plus_users
       +access: private
+      +tags: ["office_plus_models" , "opm" ]
 
       # all models should have unique and not_null
       +required_tests: {"unique.*|not_null": 2}  
@@ -77,13 +82,16 @@ models:
       staging:
         +materialized: view
         +schema: office_plus_staging 
+
+snapshots:
+  proj_jaffle_shop:
+    office_plus:
+      +enabled: false
         
-
-
 seeds:
   proj_jaffle_shop:
-    +enabled: false
     office_plus:
+      +enabled: false
       +schema: office_plus_seed
     jaffle_shop:
       +schema: jaffle_shop_seed 

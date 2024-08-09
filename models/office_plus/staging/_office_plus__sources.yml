@@ -2,6 +2,8 @@ version: 2
 
 sources:
   - name: src_office_plus
+    config:
+      enabled: false
     description: office plus headquarter masterdata
     database: raw
     schema: office_plus
