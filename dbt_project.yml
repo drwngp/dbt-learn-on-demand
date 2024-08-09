@@ -86,7 +86,7 @@ models:
 
 seeds:
   proj_jaffle_shop:
-    +enabled: false
+    +enabled: true
     office_plus:
       +schema: office_plus_seed
     jaffle_shop:
