@@ -7,9 +7,27 @@ seeds:
 
       this is a continuation of the description
     config:
+      #alias: customer_alias
       #pre_hook: SQL-statement | [SQL-statement]
       post-hook: 
         - create or replace TABLE RAW.JAFFLE_SHOP.CUSTOMERS ( ID NUMBER(38,0), FIRST_NAME VARCHAR(16777216), LAST_NAME VARCHAR(16777216) );
         - insert into raw.jaffle_shop.customers select * from ANALYTICS_DEV.DBT_LEARN_JAFFLE_SHOP_SEED.SEED_CUSTOMERS 
-      alias: customer_alias
+
+  - name: seed_raw_items
+    config:
+      enabled: false
+
+  - name: seed_raw_products
+    config:
+      enabled: false
+
+  - name: seed_raw_stores
+    config:
+      enabled: false
+  
+  - name: seed_raw_supplies
+    config:
+      enabled: false
+
+
 
